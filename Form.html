@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="starting.css">
+</head>
+<body>
+    <form class="form">
+        <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter yout name">
+        </div>
+        <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter yout email">
+        </div>
+        <div class="form-control">
+            <label for="age">Age</label>
+            <input type="age" placeholder="Enter yout Age">
+        </div>
+        <div class="form-control">
+            <label for="role" class="label-role">
+                Which option best describes you? 
+            </label>
+            <select name="role" id="role">
+                <option value="Intern">Intern</option>
+                <option value="Student">Student</option>
+                <option value="professional">professional</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label>Would you recommend GeeksforGeeks to a friend?</label>
+            <label for="recomment-1">
+                <input type="radio" class="recomment-1" name="recommend">Yes</input>
+            </label>
+            <label for="recomment-2">
+                <input type="radio" class="recomment-2" name="recommend">No</input>
+            </label>
+            <label for="recomment-3">
+                <input type="radio" class="recomment-3" name="recommend">Maybe</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="choose">Languages and Frameworks known
+                <small>(Check all that apply)</small>
+            </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C</input>
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++</input>
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#</input>
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java</input>
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python</input>
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript</input>
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React</input>
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">NodeJS</input>
+            </label>
+        </div>
+        <div class="form-control">
+            <label for="comment">Any comments or suggestions</label>
+            <textarea name="comment" class="comment" placeholder="Enter your comment here"></textarea>
+        </div>
+        <button type="submit" value="submit">Submit</button>
+    </form>
+</body>
+</html>
